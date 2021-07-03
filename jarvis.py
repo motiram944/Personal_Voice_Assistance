@@ -351,10 +351,12 @@ if __name__ == '__main__':
             driver.get('https://facebook.com')
 
             log = driver.find_element_by_xpath('//*[@id="email"]')
-            pyautogui.write("8975303848")
+            #here you can add user name
+            pyautogui.write("#")
             pass1 = driver.find_element_by_xpath('//*[@id="pass"]')
             pass1.click()
-            pyautogui.write("9922042916")
+            #here you can add password
+            pyautogui.write("#")
 
             b8 =driver.find_element_by_xpath('//*[@id="loginbutton"]')
             b8.click()
