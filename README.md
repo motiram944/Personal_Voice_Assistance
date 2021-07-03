@@ -29,3 +29,4 @@ Simple voice-based desktop/laptop assistant that has the capability to:
 18. It can find file location using file name.
 19. It can automatically login to facebook.
 20. It can add item in flipkart cart automatically.
+21. It can send mail (using api).
